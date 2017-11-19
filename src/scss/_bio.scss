@@ -1,0 +1,38 @@
+@import "variables";
+
+.bio {
+  background-image: url("../img/bio.png");
+  height: 1036px;
+}
+.bio_font {
+  font-size: 30px;
+  margin: 50px;
+  padding: 10px;
+  line-height: 1.5em;
+}
+.wrapper {
+  width: 947px;
+}
+.bio__article {
+  font-size: 18px;
+  width: 300px;
+  h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p{
+    padding: 10px;
+    line-height: 1.5em;
+  }
+}
+.bio__headline, .bio__article>h4 {
+  color: $headline-color;
+}
+.bio_font, .bio__article>p, .photography__description, .footer__text>p {
+  color: $font-color;
+}
+.bio_format {
+  padding-bottom: 120px;
+}
+
+

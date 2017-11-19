@@ -1,0 +1,31 @@
+@import "variables";
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+@include placeholder {
+  color: $font-color;
+  font-size: 18px;
+}
+.news {
+  background: $bg;
+  color: $white;
+  height: 794px;
+}
+.news__input {
+  width: 378px;
+  height: 56px;
+  border-radius: 5px;
+}
+.news__logo {
+  padding-top: 270px;
+  padding-bottom: 70px;
+}
+.news__text {
+  padding-bottom: 40px;
+  line-height: 1.5em;
+  font-size: 18px;
+}

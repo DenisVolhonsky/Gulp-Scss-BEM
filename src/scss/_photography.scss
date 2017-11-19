@@ -1,0 +1,17 @@
+@import "variables";
+
+.photography {
+  background-image: url("../img/photography.png");
+  height: 1348px;
+}
+.photography__description {
+  width: 50%;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+.photography__photo-block {
+  padding: 50px;
+}
+.photography_format {
+  padding-bottom: 50px;
+}

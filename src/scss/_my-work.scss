@@ -1,0 +1,49 @@
+@import "variables";
+
+.my-work {
+  background: $bg;
+  color: $white;
+  height: 1354px;
+}
+.btn {
+  width: 218px;
+  height: 60px;
+  border-radius: 5px;
+  color: $btn-text;
+  font-size: 18px;
+  background: $btn-color;
+  border: 0;
+}
+.btn_position {
+  margin: 0 auto;
+  text-align: center;
+}
+.my-work__menu>ul>li {
+  display: inline-block;
+  margin: 30px;
+}
+.my-work__img-blocks {
+  display: flex;
+  flex-wrap: wrap; // блоки помещаются в несколько строк если не помещ в 1 строку
+  justify-content: space-between;
+  padding-bottom: 243px;
+}
+.my-work__pic {
+  width: 300px;
+  height: 300px;
+  background: $btn-color;
+  margin: 10px 0 10px 0;
+}
+.focused {
+  text-decoration: underline;
+  text-decoration-color: $btn-color;
+}
+.my-work__image-description {
+  font-size: 20px;
+
+}
+.my-work__image-menu {
+  padding: 10px;
+  font-size: 16px;
+  color: $image-menu;
+}

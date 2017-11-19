@@ -1,0 +1,38 @@
+@import "variables";
+
+.block_centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.header {
+  background: $bg;
+  color: $white;
+  height: 852px;
+}
+.header__btn {
+  position: relative;
+  border: 2px solid $white;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+.header__btn-direction {
+  position: absolute;
+  display: block;
+  left: 8px;
+  top: 11px;
+}
+.header__headline {
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.header__logo {
+  padding: 75px;
+}
+.header__comment {
+  padding-top: 68px;
+  padding-bottom: 200px;
+}
